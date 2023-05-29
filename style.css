@@ -117,8 +117,8 @@ header .navbar a:hover{
   
   @media (max-width: 767px) {
     .button {
-      margin-left: 120px;
-      margin-top: 130px;
+      margin-left: 90px;
+      margin-top: 180px;
     }
   }
 .slider {
