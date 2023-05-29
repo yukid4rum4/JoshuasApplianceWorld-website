@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joshua's Appliance World</title>
+  <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <div class="loading">
+    <img src="Images/load.gif" alt="Loading...">
+  </div>
+  <div class="container"></div>
+  <header>
+    <div class="logo">
+      <img src="Images/logo.png" alt="logo">
+    </div>
+    <div id="menu" class="menu">
+      <img src="Images/menu.png" alt="menu">
+    </div>
+    <nav class="navbar">
+      <a href="Index.html">Home</a>
+      <a href="#" id="next">Order Now</a>
+      <a href="index2.html">Gallery</a>
+      <a href="#oVerlay">Contact Us</a>
+      <a id="helpLink" href="#">Help</a>
+    </nav>
+  </header>
+  <div class="overlay" id="oVerlay">
+    <div class="wrapper">
+        <h2>Please Fill up this Form</h2>
+        <a href="#" class="close">&times;</a>
+        <div class="content">
+            <div class="container">
+                <form id="myForm">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" placeholder="Your First Name">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Your Last Name">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" placeholder="Your Query Here..."></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <section class="gallery" id="gallery">
+    <h1 class="heading" >Our<span>Gallery</span></h1>
+
+    <div class="category-container">
+      <h3 class="title">Categories:</h3>
+      
+      <div class="category">
+        <img class ="first"src="Images/clean.png">
+        <p class="second">Cleaning Appliances</p>
+      </div>
+      
+      <div class="category">
+        <img src="Images/kitchen.png">
+        <p>Kitchen Appliances</p>
+      </div>
+      
+      <div class="category">
+        <img src="Images/hc.png">
+        <p>Home Comfort Appliances</p>
+      </div>
+    </div>
+    <div class="box-container">
+
+      <div class="box">
+        <img class="image" src="Images/blender.png" alt="">
+        <div class="content">
+          <img src="Images/kitchen.png" alt="">
+          <h3>Vitamix 5200 Blender</h3>
+          <h2>1500Php</h2>
+          <p>The Vitamix 5200 Blender is a high-performance blender
+            that offers exceptional blending power and versatility.
+            It is designed to handle a wide range of blending tasks, from
+            creating smoothies and soups to grinding nuts and crushing ice.</p>
+        </div>
+      </div>
+      <div class="box">
+        <img class="image" src="Images/microwave.png" alt="">
+        <div class="content">
+          <img src="Images/kitchen.png" alt="">
+          <h3>NN-SN966S Microwave Oven</h3>
+          <h2>2300Php</h2>
+          <p>This microwave oven comes with a variety of convenient
+            features and pre-programmed settings. It includes a sensor
+            cooking feature that automatically adjusts cooking time
+            and power level based on the type of food and its quantity.
+            This eliminates the guesswork and ensures perfectly cooked meals every time.</p>
+        </div>
+      </div>
+      <div class="box">
+        <img class="image" src="Images/ref.png" alt="">
+        <div class="content">
+          <img src="Images/kitchen.png" alt="">
+          <h3>RF28R7351SG French Door Refrigerator</h3>
+          <h2>15000Php</h2>
+          <p>RF28R7351SG French Door Refrigerator is a high-performance and
+            stylish refrigerator that combines innovative features with a
+            spacious and organized storage design. It is designed to keep your
+            food fresh, provide easy access, and enhance the overall efficiency of your kitchen.</p>
+        </div>
+      </div>
+      <div class="box">
+      <img class="image" src="Images/cm.png" alt="">
+      <div class="content">
+        <img src="Images/kitchen.png" alt="">
+        <h3>Keurig K-Elite Single Serve Coffee Maker</h3>
+        <h2>2000Php</h2>
+        <p>The Keurig K-Elite Single Serve Coffee Maker is a sleek and convenient brewing system
+          that delivers a delicious cup of coffee in minutes. It features a large water reservoir,
+          allowing you to brew multiple cups before needing a refill. </p>
+      </div>
+    </div>
+    <div class="box">
+      <img class="image" src="Images/humidifier.png" alt="">
+      <div class="content">
+        <img src="Images/hc.png" alt="">
+        <h3>TaoTronics Cool Mist Humidifier</h3>
+        <h2>2500Php</h2>
+        <p>The TaoTronics Cool Mist Humidifier is a reliable and versatile device designed
+          to improve indoor air quality and create a comfortable environment in your home
+          or office. This humidifier utilizes advanced technology to add moisture to the air,
+          helping to alleviate dryness and promote better breathing, especially during dry
+          seasons or in areas with low humidity.</p>
+      </div>
+    </div>
+    <div class="box">
+      <img class="image" src="Images/heater.png" alt="">
+      <div class="content">
+        <img src="Images/hc.png" alt="">
+        <h3>Dyson Hot + Cool Heater</h3>
+        <h2>5000Php</h2>
+        <p>The Dyson Hot + Cool Heater is an innovative and high-performance heating device
+          that combines heating and cooling capabilities in a single unit. Designed by Dyson,
+          a renowned brand known for its cutting-edge technology and sleek designs, this
+          heater offers efficient heating during colder months and can also function as a
+          fan during warmer seasons.</p>
+      </div>
+    </div>
+    <div class="box">
+      <img class="image" src="Images/aircon.png" alt="">
+      <div class="content">
+        <img src="Images/hc.png" alt="">
+        <h3>MSZ-GL Series Air Conditioner</h3>
+        <h2>11000Php</h2>
+        <p> MSZ-GL Series Air Conditioner is a high-performance and energy-efficient cooling
+          solution designed to provide exceptional comfort in residential and commercial spaces.
+          Manufactured by Mitsubishi Electric, a leading brand in the HVAC industry, this air
+          conditioner offers reliable cooling performance, advanced features, and a sleek design.</p>
+      </div>
+    </div>
+    <div class="box">
+      <img class="image" src="Images/air.png" alt="">
+      <div class="content">
+        <img src="Images/hc.png" alt="">
+        <h3>Cool Link Tower Air Purifier</h3>
+        <h2>5200Php</h2>
+        <p>Cool Link Tower Air Purifier is a cutting-edge device that combines advanced air purification
+          technology with a sleek tower design. Manufactured by Dyson, a renowned brand in the field of
+          home appliances, this air purifier is designed to improve indoor air quality by capturing
+          pollutants and allergens, providing a healthier and cleaner living environment.</p>
+      </div>
+    </div>
+    <div class="box">
+      <img class="image" src="Images/vacuum.png" alt="">
+      <div class="content">
+        <img src="Images/clean.png" alt="">
+        <h3>V11 Absolute Cordless Vacuum Cleaner</h3>
+        <h2>5000Php</h2>
+        <p>V11 Absolute Cordless Vacuum Cleaner is a top-of-the-line cleaning device manufactured by
+          Dyson, a renowned brand known for its innovative vacuum technology. This cordless vacuum
+          cleaner offers powerful suction, advanced filtration, and intelligent features, making it
+          a versatile and efficient tool for maintaining a clean and dust-free home.</p>
+      </div>
+    </div>
+    <div class="box">
+      <img class="image" src="Images/iron.png" alt="">
+      <div class="content">
+        <img src="Images/clean.png" alt="">
+        <h3>Rowenta Focus Excel Iron</h3>
+        <h2>800Php</h2>
+        <p>The Rowenta Focus Excel Iron is a high-quality iron designed to provide efficient and
+          professional ironing results. Manufactured by Rowenta, a trusted brand known for its expertise
+          in garment care appliances, this iron offers a combination of advanced features, durability,
+          and user-friendly design.</p>
+      </div>
+    </div>
+    <div class="box">
+      <img class="image" src="Images/mop.png" alt="">
+      <div class="content">
+        <img src="Images/clean.png" alt="">
+        <h3>Bissell PowerFresh Steam Mop</h3>
+        <h2>3500Php</h2>
+        <p>The Bissell PowerFresh Steam Mop is a versatile and efficient cleaning appliance that uses
+          the power of steam to sanitize and refresh your floors. It features a built-in water tank and
+          easy-to-use controls, allowing you to adjust the steam level based on your cleaning needs. </p>
+      </div>
+    </div>
+    <div class="box">
+      <img class="image" src="Images/washing.png" alt="">
+      <div class="content">
+        <img src="Images/clean.png" alt="">
+        <h3>LG TurboWash 360° Washing Machine</h3>
+        <h2>12000Php</h2>
+        <p> The LG TurboWash 360° Washing Machine is a technologically advanced and highly efficient appliance
+          designed to provide exceptional cleaning performance for your laundry needs. Manufactured by LG,
+          a renowned brand in home appliances, this washing machine offers innovative features, durability,
+          and convenience.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  </div>
+  <a href="#" class="button" id="nextButton">Order Now!</a>
+
+  <div id="orderFormWrapper">
+    <form id="orderForm" class="hidden">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" required><br>
+  
+      <label for="lastName">Last Name:</label>  
+      <input type="text" id="lastName" required><br>
+  
+      <label for="address">Address:</label>
+      <input type="text" id="address" required><br>
+  
+      <button type="submit" id="submitOrder">Submit</button>
+      <button type="button" id="cancelOrder">Cancel</button>
+    </form>
+  </div>
+  </button>
+  <footer class="footer">
+    <div class="row">
+      <div class="col">
+        <h2>About</h2>
+        <p>Welcome to Joshua's Appliance World! We are a dedicated team passionate
+          about providing high-quality appliances and exceptional service to our customers.
+          With years of experience in the industry, we understand the importance of reliable
+          and efficient appliances in modern households and businesses.
+        </p>
+      </div>
+      <div class="col">
+        <h2>More Information</h2>
+        <p>Adamson University</p>
+        <p>Sampaloc Manila</p>
+        <p>202216381</p>
+        <p class="email">joshua.marinda@adamson.edu.ph</p>
+        <h4>+63-9060934299</h4>
+      </div>
+      <div class="col">
+        <h3>Connect with Us</h3>
+        <form>
+          <i class="far fa-envelope"></i>
+          <input type="email" placeholder="Enter Your Email Id" required>
+          ><button type="submit"><i class="fas fa-arrow-right"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/joshua.marinda.96?mibextid=ZbWKwL" class="icon facebook">
+        <img src="Images/fb.png" alt="Facebook">
+        <span class="icon-name">Facebook</span>
+      </a>
+      <a href="https://www.tiktok.com/@joshuapaulomarinda?_t=8ch19CRJdL8&_r=1" class="icon twitter">
+        <img src="Images/tiktok.png" alt="Tiktok">
+        <span class="icon-name">Tiktok</span>
+      </a>
+      <a href="https://instagram.com/joshua.marinda.96?igshid=MzNlNGNkZWQ4Mg==" class="icon instagram">
+        <img src="Images/insta.png" alt="Instagram">
+        <span class="icon-name">Instagram</span>
+      </a>
+    </div>
+    <hr>
+    <p class="end">Joshua's Appliance World ⓒ 2023 - All Rights Reserved</p>
+  </footer>
+  <script src="script2.js"></script>
+</body>
+
+</html>
